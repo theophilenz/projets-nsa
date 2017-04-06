@@ -1,2 +1,96 @@
 @import "_variables.scss";
 @import "_bootswatch.scss";
+
+/* Styles généraux */
+
+.navbar ul {
+    margin-left: 30%;
+}
+
+.logo-site {
+    padding: 3% 0;
+    width: 100%;
+}
+
+.logo-site img {
+    width: 20%;
+    position: relative;
+    left: 35%;
+}
+
+
+/*///STYLES DE LA PAGE D'ACCUEIL////*/
+
+
+/*Top */
+
+.accueil-top-gauche {
+    color: $body-bg;
+    background-color: $gray-base;
+    padding: 12vh 1%;
+    text-align: center;
+}
+
+.accueil-top-gauche h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 5% 0;
+}
+
+.accueil-top-gauche .lead {
+    font-size: 1.2em;
+}
+
+.accueil-top-gauche i {
+    font-size: 4em;
+}
+
+.accueil-top-droite img {
+    display: inline-block;
+    width: 100%;
+}
+
+
+/*Centre */
+
+.accueil-mid-gauche img,
+.accueil-mid-droit img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.accueil-mid-centre p {
+    background-color: $gray-dark;
+    color: $body-bg;
+    font-size: 2em;
+    padding: 2%;
+}
+
+.accueil-centre {
+    margin: 5vh 0;
+}
+
+
+/*Centre bas */
+
+.accueil-mid-centre-bas {
+    background-color: $gray-lighter;
+    text-align: center;
+    color: $brand-primary;
+    font-size: 1.2em;
+    padding: 2%;
+}
+
+.accueil-mid-centre-bas a {
+    color: $brand-primary;
+}
+
+.accueil-mid-centre-bas i {
+    font-size: 2em;
+    color: $brand-primary;
+}
+
+.accueil-mid-droit-bas {
+    color: #fff;
+    background-color: $gray-base;
+}
