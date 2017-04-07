@@ -7,5 +7,14 @@ function configurationProjet($routeProvider) {
             templateUrl: "appli/page-accueil/accueil.html",
             controller: controlleurAccueil,
             controllerAs: "vm"
+        })
+        .when("/a-propos", {
+            templateUrl: "appli/a-propos/a-propos.html",
+            controller: controlleurApropos,
+            controllerAs: "vm"
+        }).when("/projets", {
+            templateUrl: "appli/projets/projets.html",
+            controller: controlleurProjets,
+            controllerAs: "vm"
         });
 };

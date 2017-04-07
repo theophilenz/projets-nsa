@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700");
 .navbar-inverse .badge {
   background-color: #fff;
-  color: #2780E3; }
+  color: #00457C; }
 
 body {
   -webkit-font-smoothing: antialiased; }
 
 .text-primary,
 .text-primary:hover {
-  color: #2780E3; }
+  color: #00457C; }
 
 .text-success,
 .text-success:hover {
@@ -181,6 +181,11 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
   position: relative;
   left: 35%; }
 
+footer {
+  padding: 5%;
+  font-size: 1.5em;
+  text-align: center; }
+
 /*///STYLES DE LA PAGE D'ACCUEIL////*/
 /*Top */
 .accueil-top-gauche {
@@ -223,17 +228,54 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
 .accueil-mid-centre-bas {
   background-color: #e6e6e6;
   text-align: center;
-  color: #2780E3;
-  font-size: 1.2em;
-  padding: 2%; }
+  color: #00457C;
+  padding: 2.8%; }
 
 .accueil-mid-centre-bas a {
-  color: #2780E3; }
+  color: #00457C;
+  font-size: 1.5em; }
 
 .accueil-mid-centre-bas i {
   font-size: 2em;
-  color: #2780E3; }
+  color: #00457C; }
 
 .accueil-mid-droit-bas {
   color: #fff;
-  background-color: #000; }
+  font-size: 1.3em;
+  background-color: #000;
+  text-align: center;
+  padding: 3.8%; }
+
+/*///STYLES DE LA PAGE À PROPOS///*/
+.heading-a-propos {
+  color: #fff;
+  width: 100%;
+  font-size: 2em;
+  background-color: #000;
+  text-align: center;
+  padding: 5%;
+  background-image: url("../images/images-demos/a-propos-top.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: bold; }
+
+.contenu-a-propos {
+  margin-top: 2%;
+  padding: 2%;
+  font-size: 1.5em; }
+
+.image-normand-chantale img {
+  display: inline-block;
+  max-width: 100%; }
+
+/*///STYLES DE LA PAGE PROJETS///*/
+.heading-projets {
+  color: #fff;
+  width: 100%;
+  font-size: 2em;
+  background-color: #000;
+  text-align: center;
+  padding: 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-weight: bold; }
