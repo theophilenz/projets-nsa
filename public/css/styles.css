@@ -269,7 +269,7 @@ footer {
   max-width: 100%; }
 
 /*///STYLES DE LA PAGE PROJETS///*/
-.heading-projets {
+.page-projets .heading-projets {
   color: #fff;
   width: 100%;
   font-size: 2em;
@@ -279,3 +279,22 @@ footer {
   background-size: contain;
   background-repeat: no-repeat;
   font-weight: bold; }
+
+.page-projets .projet img {
+  display: inline-block;
+  padding: .25rem;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 5px; }
+
+.page-projets .projet {
+  background-color: #f3f3f3;
+  margin-bottom: 1%;
+  -moz-column-width: 18em;
+  -webkit-column-width: 18em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap: 1em; }
+
+.page-projets .contenu-projets {
+  margin: 3% 0; }

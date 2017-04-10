@@ -6,22 +6,59 @@ function controlleurProjets() {
 
     vm.projets = [{
             id: 1,
-            titre: "Titre du projet",
             description: "Description",
+            lien: "#"
         },
         {
             id: 2,
-            titre: "Titre du projet",
             description: "Description",
+            lien: "#"
         },
         {
             id: 3,
-            titre: "Titre du projet",
             description: "Description",
         },
         {
             id: 4,
-            titre: "Titre du projet",
+            description: "Description",
+        },
+        {
+            id: 5,
+            description: "Description",
+            lien: "#"
+        },
+        {
+            id: 6,
+            description: "Description",
+        },
+        {
+            id: 7,
+            description: "Description",
+        },
+        {
+            id: 8,
+            description: "Description",
+        },
+        {
+            id: 9,
+            description: "Description",
+            lien: "#"
+        },
+        {
+            id: 10,
+            description: "Description",
+            lien: "#"
+        },
+        {
+            id: 11,
+            description: "Description",
+        },
+        {
+            id: 12,
+            description: "Description",
+        },
+        {
+            id: 13,
             description: "Description",
         }
     ]
