@@ -2,9 +2,13 @@
 <html lang="fr" ng-app="projetsnsa">
 
 <head>
-    <title>Projets NSA</title>
+    <title>Projets NSA- {{header}}</title>
     <meta charset="UTF-8">
+    <meta name="description" content="Profitez du savoir-faire de Projets NSA et accueillez chez-vous une équipe de professionnels qui pourra se charger de vos différents travaux de rénovation.">
+    <meta name="keywords" content="Rénovation, Construction, Entretien, Finition, Réparation, Résidentiel, Commercial">
+    <meta name="author" content="Théophile Nzungize">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="images/graphiques/icon.ico" rel="icon" type="image/ico" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -22,6 +26,9 @@
             </div>
             <div class="navbar-collapse collapse" id="navbar-main">
                 <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/">Accueil</a>
+                    </li>
                     <li>
                         <a href="#!/a-propos">À notre sujet</a>
                     </li>
@@ -62,6 +69,7 @@
     <script src="appli/page-accueil/controlleur-accueil.js"></script>
     <script src="appli/a-propos/controlleur-a-propos.js"></script>
     <script src="appli/projets/controlleur-projets.js"></script>
+    <script src="appli/page-contact/controlleur-contact.js"></script>
 </body>
 
 </html>

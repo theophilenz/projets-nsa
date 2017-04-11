@@ -179,7 +179,7 @@ a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
 .logo-site img {
   width: 20%;
   position: relative;
-  left: 35%; }
+  left: 40%; }
 
 footer {
   padding: 5%;
@@ -269,6 +269,9 @@ footer {
   max-width: 100%; }
 
 /*///STYLES DE LA PAGE PROJETS///*/
+.page-projets {
+  background-color: #f3f3f3; }
+
 .page-projets .heading-projets {
   color: #fff;
   width: 100%;
@@ -289,7 +292,6 @@ footer {
   margin-bottom: 5px; }
 
 .page-projets .projet {
-  background-color: #f3f3f3;
   margin-bottom: 1%;
   -moz-column-width: 18em;
   -webkit-column-width: 18em;
@@ -298,3 +300,10 @@ footer {
 
 .page-projets .contenu-projets {
   margin: 3% 0; }
+
+/*///STYLES DE LA PAGE CONTACT///*/
+.heading-contact {
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  padding: 5%; }

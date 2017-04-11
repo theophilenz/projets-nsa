@@ -5,8 +5,8 @@
         </div>
         <div class="col-xs-12 contenu-projets">
             <div class="col-xs-12 col-sm-6 col-md-4 projet" ng-repeat="projet in vm.projets">
-                <img src="images/projets/projet_{{projet.id}}.jpg" alt="{{projet.titre}}" />
-                <p ng-if="projet.description">{{projet.description}} {{projet.id}} <a ng-if="projet.lien" href="{{projet.lien}}">En savoir plus</a></p>
+                <img src="images/projets/projet_{{projet.id}}.jpg" alt="{{projet.description}}" />
+                <p ng-if="projet.description">({{projet.id}}) {{projet.description}} <a ng-if="projet.lien" href="{{projet.lien}}">En savoir plus</a></p>
             </div>
         </div>
     </div>

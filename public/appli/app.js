@@ -16,5 +16,9 @@ function configurationProjet($routeProvider) {
             templateUrl: "appli/projets/projets.html",
             controller: controlleurProjets,
             controllerAs: "vm"
+        }).when("/contact", {
+            templateUrl: "appli/page-contact/contact.html",
+            controller: controlleurContact,
+            controllerAs: "vm"
         });
 };
